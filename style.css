@@ -20,6 +20,7 @@ header {
   top: 0;
   z-index: 10;
   padding: 20px 48px;
+  background-color: white;
   width: 1280px;
 }
 
@@ -143,40 +144,27 @@ header {
   background-color: #d9eff7;
   border-radius: 99px;
   padding: 4px;
-  gap: 8px;
+  gap: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 48px;
 }
 
 .h1-1 {
-  width: 112px;
-  height: 24px;
   background-color: #194553;
   border-radius: 20px;
   color: #d9eff7;
-  width: 129px;
-  height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 11px;
   padding: 4px 16px;
-  padding: 5px;
 }
 .h1-2 {
-  width: 129px;
-  height: 24px;
-  opacity: 1;
-  font-family: Inter;
   font-weight: 600;
-  font-style: Semi Bold;
   font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.55px;
   text-align: center;
-  vertical-align: middle;
-  margin-top: 4px;
 }
 .h1-3 {
   width: 25px;
@@ -256,20 +244,22 @@ header {
   font-size: 14px;
 }
 .hevtee-6 {
-  width: 896px;
   background-color: #ffffff;
   padding: 8px;
   border-radius: 9999px;
   justify-content: center;
   align-items: center;
   display: flex;
-  gap: 5px;
   margin-top: 48px;
+  gap: 13px;
 }
 .hevtee-6-1 {
   display: flex;
-  width: 260px;
+  gap: 16px;
+  align-items: center;
+  width: 260.84px;
   height: 52px;
+  border-right: 2px solid #dae4e9;
 }
 .fa-calendar {
   color: #065161;
@@ -286,23 +276,23 @@ header {
   align-items: left;
 }
 .child-2-1 {
-  color: #70787c;
-  letter-spacing: 0.55px;
-  vertical-align: middle;
+  color: #141d21;
   font-size: 11px;
   font-weight: 600;
-  height: 16px;
-  display: flex;
-  flex-direction: row;
 }
 .child-2-2 {
   font-weight: 700;
   font-size: 14px;
-  letter-spacing: 0.14px;
-  vertical-align: middle;
-  flex-direction: row;
   color: #141d21;
 }
+
+.route-highlights {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-right: 2px solid #dae4e9;
+}
+
 .hevtee-6-2 {
   width: 260px;
   height: 52px;
@@ -324,19 +314,6 @@ header {
 }
 
 .child-3-1 {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.hevtee-6-1 {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.child-3-1 {
-  width: 196px;
-  height: 48px;
   background-color: #2b697a;
   border-radius: 999px;
   justify-content: center;
@@ -344,8 +321,7 @@ header {
   align-items: center;
   text-align: center;
   color: #ffffff;
-  margin-right: 32px;
-  margin-left: 32px;
+  padding: 14px 32px;
 }
 .fa-arrow-down-long {
   color: #ffffff;
@@ -354,57 +330,51 @@ header {
   align-items: center;
 }
 .child-4 {
-  width: 96px;
-  height: 48px;
   background-color: #9ed9ee;
   border-radius: 999px;
   justify-content: center;
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 14px 32px;
   color: #065161;
-  margin-right: 24px;
-  margin-left: 24px;
 }
 .huudas-2 {
   display: flex;
   flex-direction: column;
   width: 1280px;
-
   padding: 72px 48px;
 }
 .deed-heseg {
-  width: 1280px;
-  flex-direction: row;
   display: flex;
   justify-content: space-between;
   margin-bottom: 48px;
 }
 .deed-1 {
-  flex-direction: row;
   display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
+
 .deed-1-1 {
-  font-weight: 600px;
-  font-size: 11px;
-  letter-spacing: 1.1px;
-  vertical-align: middle;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   color: #065161;
+  font-size: 11px;
+  font-weight: 600;
 }
+
 .deed-1-2 {
-  font: Plus Jakarta Sans;
   font-weight: 900;
-  font-style: ExtraBold;
   font-size: 40px;
-  letter-spacing: -1px;
-  vertical-align: middle;
   color: #141d21;
 }
 .deed-1-3 {
   padding: 10px;
   color: #40484b;
   width: 448px;
+  display: flex;
 }
 
 .zurag-1 {
@@ -523,9 +493,11 @@ header {
   background-color: #d9eff7;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 4px 16px;
   border-radius: 9999px;
   width: 191px;
+  gap: 8px;
 }
 
 .fa-stethoscope {
@@ -551,9 +523,75 @@ header {
   width: 1280px;
   flex-wrap: wrap;
   display: flex;
-  justify-content: center;
+  margin: auto;
   gap: 10px;
 }
+
+.huudas-3-dood-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  width: 378.67px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.huudas-3-dood-card-tom {
+  width: 768px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: linear-gradient(135deg, #d9eff766, #ffffff, #ffffff);
+}
+
+.huudas-3-dood-card-tom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 500px;
+}
+
+.huudas-3-dood-card-tom-zavi {
+  width: 224px;
+  height: 176px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.huudas-3-dood-card-tom-zavi img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.huudas-3-dood-card-day {
+  padding: 4px 12px;
+  color: #70787c;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #e6eff5;
+}
+
+.huudas-3-dood-card-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #70787c;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.huudas-3-dood-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #70787c;
+  font-size: 11px;
+  font-weight: 600;
+}
+
 .day-1 {
   width: 378px;
   border-radius: 12px;
@@ -567,16 +605,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.deed-1-1 {
-  width: 65px;
-  height: 24px;
-  border-radius: 999px;
-  background-color: #e6eff5;
-}
-.deed-1-2 {
-  color: #70787c;
-  font-size: 13px;
-}
+
 .dund-1 {
   color: #141d21;
   font: Plus Jakarta Sans;
@@ -614,16 +643,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.deed-1-1 {
-  width: 65px;
-  height: 24px;
-  border-radius: 999px;
-  background-color: #e6eff5;
-}
-.deed-1-2 {
-  color: #70787c;
-  font-size: 13px;
-}
+
 .dund-1 {
   color: #141d21;
   font: Plus Jakarta Sans;
@@ -655,16 +675,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.deed-1-1 {
-  width: 65px;
-  height: 24px;
-  border-radius: 999px;
-  background-color: #e6eff5;
-}
-.deed-1-2 {
-  color: #70787c;
-  font-size: 13px;
-}
+
 .dund-1 {
   color: #141d21;
   font: Plus Jakarta Sans;
@@ -700,19 +711,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.deed-1-1 {
-  width: 65px;
-  height: 24px;
-  border-radius: 999px;
-  background-color: #e6eff5;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.deed-1-2 {
-  color: #70787c;
-  font-size: 13px;
-}
+
 .dund-1 {
   color: #141d21;
   font: Plus Jakarta Sans;
@@ -751,11 +750,7 @@ header {
 .deed-1-5 {
   display: flex;
 }
-.deed-1 {
-  border-radius: 999px;
-  display: flex;
-  align-items: center;
-}
+
 .deed-2 {
   color: #70787c;
   font-size: 13px;
@@ -810,17 +805,14 @@ header {
 }
 .huudas-4 {
   width: 1280px;
-  height: 933px;
   display: flex;
   justify-content: center;
-  padding: 72px;
+  flex-direction: column;
+  padding: 72px 48px;
   background-color: #ecf5fa;
 }
 .tolgoi-heseg {
-  width: 672px;
-  height: 144px;
   display: flex;
-  flex-direction: row;
   gap: 8px;
   justify-content: center;
 }
@@ -828,6 +820,7 @@ header {
   border-radius: 999px;
   align-items: center;
   display: flex;
+  gap: 8px;
   justify-content: center;
   flex-direction: column;
 }
@@ -835,6 +828,8 @@ header {
   background-color: #d9eff7;
   color: #065161;
   border-radius: 999px;
+  gap: 8px;
+  padding: 4px 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -863,13 +858,108 @@ p {
   gap: 3px;
 }
 .huudas-4-dood {
-  width: 1184px;
-  height: 513px;
-  flex-wrap: wrap;
   display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
   gap: 32px;
-  margin-bottom: 120px;
 }
+
+.huudas-4-dood-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 48px;
+  box-shadow: 0 1px 2px #0000000d;
+}
+
+.package-name {
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  background-color: #e6eff5;
+  width: fit-content;
+  border-radius: 999px;
+}
+
+.huudas-4-dood-card-traveler {
+  color: #70787c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.huudas-4-dood-card-price {
+  font-size: 36px;
+  color: #141d21;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+.huudas-4-dood-card-essential {
+  color: #065161;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.includes {
+  margin-top: 16px;
+  color: #70787c;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.huudas-4-dood-card {
+  list-style: url("./Icon\ \(1\).png");
+}
+
+.huudas-4-dood-card-list-hasah {
+  list-style: url("./Icon\ \(5\).png");
+  color: #70787c;
+}
+
+.huudas-4-dood-card-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.huudas-4-dood-card-button {
+  color: #065161;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 999px;
+  width: 277.33px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+}
+
+.huudas-4-dood-card-middle {
+  position: relative;
+}
+
+.huudas-4-dood-card-middle-recommended {
+  background-color: #d97706;
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 11px;
+  font-weight: 900;
+  padding: 4px 16px 4px 48.18px;
+}
+
+.huudas-4-dood-card-middle-recommended div {
+  width: 103px;
+}
+
 .huudas-4-dood-1 {
   height: 513px;
   flex: 1;
@@ -897,13 +987,7 @@ p {
   margin-top: 16px;
   margin-bottom: 4px;
 }
-.child-2-1 {
-  font-size: 36px;
-  font: Plus Jakarta Sans;
-  height: 44px;
-  display: flex;
-  color: #141d21;
-}
+
 .child-2-2 {
   font-size: 14px;
   color: #70787c;
@@ -1121,28 +1205,32 @@ p {
 }
 .huudas-5 {
   background-color: #e0eaef;
-  flex-direction: column;
+  padding: 72px 48px;
   display: flex;
-  width: 1280pc;
+  width: 1280px;
   align-items: center;
   justify-content: center;
 }
 .urd-heseg {
-  width: 1184px;
-  height: 526px;
   background-color: #ffffff;
   display: flex;
-  margin-top: 72px;
   border-radius: 16px;
+  align-items: center;
+  padding: 48px;
 }
 .hvv-1 {
-  margin: 73px 48px 48px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .hvv-1-1 {
   font-family: Inter;
   font-weight: 700;
   font-size: 11px;
   color: #065161;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .hvv-1-2 {
   font-family: Plus Jakarta Sans;
@@ -1168,17 +1256,10 @@ p {
   align-items: center;
   color: #18331e;
   font-weight: 700;
-  font-style: Inter;
   font-size: 11px;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
-.fa-leaf {
-  color: #446744;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .hvv-1-5 {
   width: 276px;
   height: 32px;
@@ -1199,13 +1280,11 @@ p {
 }
 .hvv-2 {
   width: 614px;
-  height: 430px;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-top: 48px;
 }
 .hvv-2-1 {
   width: 299px;
@@ -1213,15 +1292,14 @@ p {
   background-color: #ecf5fa;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 4px;
   border-radius: 12px;
+  padding: 24px;
 }
 .ikon {
   width: 24px;
   height: 23px;
   color: #065161;
-  margin-top: 24px;
-  margin-left: 18px;
 }
 .har {
   font-family: Plus Jakarta Sans;
@@ -1229,40 +1307,25 @@ p {
   font-style: Bold;
   font-size: 18px;
   color: #141d21;
-  margin-top: 4px;
-  margin-left: 24px;
-  width: 251px;
-  height: 52px;
 }
 .saaral {
-  width: 80px;
-  height: 24px;
   font-weight: 400;
   font-size: 13px;
   color: #40484b;
-  margin-bottom: 24px;
 }
 .facebook {
-  width: 88px;
-  height: 24px;
   border-radius: 999px;
   background-color: #d9eff7;
   color: #065161;
+  padding: 4px 16px;
   font-size: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .instagram {
-  width: 91px;
-  height: 24px;
+  padding: 4px 16px;
   border-radius: 999px;
   background-color: #d9eff7;
   color: #065161;
   font-size: 11px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .har1 {
   width: 251px;
@@ -1283,7 +1346,7 @@ p {
 }
 .hvvhed-6 {
   width: 1194px;
-  height: 324px;
+  padding: 72px 48px;
   border-radius: 24px;
   background-color: #194553;
   display: flex;
@@ -1293,11 +1356,9 @@ p {
   height: 180px;
   flex-direction: column;
   display: flex;
-  padding: 72px;
   gap: 8px;
 }
 .hvvhed-6-1-1 {
-  font-family: Inter;
   font-weight: 700;
   font-style: Bold;
   font-size: 11px;
@@ -1306,8 +1367,7 @@ p {
 .hvvhed-6-1-2 {
   font-family: Plus Jakarta Sans;
   font-weight: 900;
-  font-style: ExtraBold;
-  font: 40px;
+  font-size: 40px;
   color: #ffffff;
 }
 .hvvhed-6-1-3 {
@@ -1318,31 +1378,39 @@ p {
   color: #d9eff7;
 }
 .hvvhed-6-2 {
-  width: 215px;
-  height: 100%;
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 12px;
+}
+
+.hvvhed-6-2-1 {
+  color: white;
+  padding: 16px 32px;
   border-radius: 999px;
   background-color: #2b697a;
-  color: #ffffff;
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
+.hvvhed-6-2-2 {
+  color: #194553;
+  padding: 16px 32px;
+  border-radius: 999px;
+  background-color: #ffffffc7;
+}
+
 .huudas-7 {
   width: 1280px;
-  height: 424px;
   display: flex;
-  padding-bottom: 32px;
+  padding: 72px 48px;
   background-color: #ecf5fa;
   flex-direction: column;
   margin-bottom: 90px;
+  gap: 98px;
 }
 .hvvhed-7-1 {
-  width: 1184px;
-  height: 204px;
   display: flex;
   gap: 48px;
   padding: 72px 48px;
@@ -1351,6 +1419,7 @@ p {
   width: 362px;
   height: 100%;
   display: flex;
+  gap: 16px;
   flex-direction: column;
 }
 .dad {
@@ -1386,7 +1455,6 @@ p {
   font-weight: 400;
   font-size: 13px;
   color: #40484b;
-  margin-top: 16px;
 }
 .five {
   width: 220px;
@@ -1397,6 +1465,36 @@ p {
   justify-content: center;
   margin-top: 16px;
 }
+
+.five-1 {
+  display: flex;
+  align-items: center;
+}
+
+.onne,
+.neeg,
+.nneg {
+  margin-bottom: 20px;
+  color: #141d21;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.p p,
+.hhoyr {
+  color: #40484b;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  text-wrap: nowrap;
+}
+
+.hhoyr {
+  width: 362px;
+  text-wrap: wrap;
+  margin-bottom: 16px;
+}
+
 .five-etseg {
   display: flex;
   flex-direction: column;
@@ -1454,11 +1552,13 @@ p {
   font-size: 14px;
   color: #141d21;
 }
-.hhoyr {
+.hoyr {
   font-weight: 400;
   font-size: 13px;
   color: #40484b;
   margin-top: 16px;
+  display: flex;
+  gap: 12px;
 }
 .ggurav {
   width: 362px;
@@ -1466,25 +1566,25 @@ p {
   border-radius: 999px;
   background-color: #ffffff;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 16px;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 8px;
 }
-.ikk {
-  color: #70787c;
-  width: 36px;
-  height: 36px;
+
+.email {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
+
 .bicig {
   font-weight: 400;
   font-size: 13px;
   color: #70787c;
+
   display: flex;
   align-items: center;
-  width: 208px;
-  height: 36px;
 }
 .bbordd {
   width: 101px;
